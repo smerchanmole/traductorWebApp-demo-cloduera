@@ -1,7 +1,12 @@
-transformers 
+gtts
+scipy
+transformers==4.57.6
 torch 
 accelerate 
 datasets 
 soundfile 
 librosa 
 streamlit
+
+
+

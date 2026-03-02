@@ -14,7 +14,7 @@ port = os.environ.get("CDSW_APP_PORT", "8100")
 cmd = [
     "streamlit", 
     "run", 
-    "app_hf.py", 
+    "app.py", 
     "--server.port", port, 
     "--server.address", "127.0.0.1"
 ]
