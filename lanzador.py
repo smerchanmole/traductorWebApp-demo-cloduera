@@ -1,6 +1,11 @@
 import os
 import subprocess
 
+# Ejecuta el comando y devuelve el código de retorno.
+# No captura la salida del comando (stdout/stderr)
+
+codigo_retorno = os.system("pip install -r requirements.txt")
+
 # Obtenemos el puerto que CML asigna dinámicamente a la aplicación
 port = os.environ.get("CDSW_APP_PORT", "8100")
 
